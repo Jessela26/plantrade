@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D210C0B2A8C693C00BEB4EB /* plantradeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D210C0A2A8C693C00BEB4EB /* plantradeApp.swift */; };
+		9D210C0D2A8C693C00BEB4EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D210C0C2A8C693C00BEB4EB /* ContentView.swift */; };
+		9D210C0F2A8C693F00BEB4EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D210C0E2A8C693F00BEB4EB /* Assets.xcassets */; };
+		9D210C122A8C693F00BEB4EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D210C112A8C693F00BEB4EB /* Preview Assets.xcassets */; };
+		9D210C1C2A8C693F00BEB4EB /* plantradeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D210C1B2A8C693F00BEB4EB /* plantradeTests.swift */; };
+		9D210C262A8C693F00BEB4EB /* plantradeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D210C252A8C693F00BEB4EB /* plantradeUITests.swift */; };
+		9D210C282A8C693F00BEB4EB /* plantradeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D210C272A8C693F00BEB4EB /* plantradeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D210C182A8C693F00BEB4EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D210BFF2A8C693C00BEB4EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D210C062A8C693C00BEB4EB;
+			remoteInfo = plantrade;
+		};
+		9D210C222A8C693F00BEB4EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D210BFF2A8C693C00BEB4EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D210C062A8C693C00BEB4EB;
+			remoteInfo = plantrade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D210C072A8C693C00BEB4EB /* plantrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = plantrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D210C0A2A8C693C00BEB4EB /* plantradeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plantradeApp.swift; sourceTree = "<group>"; };
+		9D210C0C2A8C693C00BEB4EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9D210C0E2A8C693F00BEB4EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D210C112A8C693F00BEB4EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9D210C172A8C693F00BEB4EB /* plantradeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plantradeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D210C1B2A8C693F00BEB4EB /* plantradeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plantradeTests.swift; sourceTree = "<group>"; };
+		9D210C212A8C693F00BEB4EB /* plantradeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plantradeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D210C252A8C693F00BEB4EB /* plantradeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plantradeUITests.swift; sourceTree = "<group>"; };
+		9D210C272A8C693F00BEB4EB /* plantradeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plantradeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D210C042A8C693C00BEB4EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D210C142A8C693F00BEB4EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D210C1E2A8C693F00BEB4EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D210BFE2A8C693C00BEB4EB = {
+			isa = PBXGroup;
+			children = (
+				9D210C092A8C693C00BEB4EB /* plantrade */,
+				9D210C1A2A8C693F00BEB4EB /* plantradeTests */,
+				9D210C242A8C693F00BEB4EB /* plantradeUITests */,
+				9D210C082A8C693C00BEB4EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D210C082A8C693C00BEB4EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D210C072A8C693C00BEB4EB /* plantrade.app */,
+				9D210C172A8C693F00BEB4EB /* plantradeTests.xctest */,
+				9D210C212A8C693F00BEB4EB /* plantradeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D210C092A8C693C00BEB4EB /* plantrade */ = {
+			isa = PBXGroup;
+			children = (
+				9D210C0A2A8C693C00BEB4EB /* plantradeApp.swift */,
+				9D210C0C2A8C693C00BEB4EB /* ContentView.swift */,
+				9D210C0E2A8C693F00BEB4EB /* Assets.xcassets */,
+				9D210C102A8C693F00BEB4EB /* Preview Content */,
+			);
+			path = plantrade;
+			sourceTree = "<group>";
+		};
+		9D210C102A8C693F00BEB4EB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9D210C112A8C693F00BEB4EB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9D210C1A2A8C693F00BEB4EB /* plantradeTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D210C1B2A8C693F00BEB4EB /* plantradeTests.swift */,
+			);
+			path = plantradeTests;
+			sourceTree = "<group>";
+		};
+		9D210C242A8C693F00BEB4EB /* plantradeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D210C252A8C693F00BEB4EB /* plantradeUITests.swift */,
+				9D210C272A8C693F00BEB4EB /* plantradeUITestsLaunchTests.swift */,
+			);
+			path = plantradeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D210C062A8C693C00BEB4EB /* plantrade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D210C2B2A8C693F00BEB4EB /* Build configuration list for PBXNativeTarget "plantrade" */;
+			buildPhases = (
+				9D210C032A8C693C00BEB4EB /* Sources */,
+				9D210C042A8C693C00BEB4EB /* Frameworks */,
+				9D210C052A8C693C00BEB4EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = plantrade;
+			productName = plantrade;
+			productReference = 9D210C072A8C693C00BEB4EB /* plantrade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D210C162A8C693F00BEB4EB /* plantradeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D210C2E2A8C693F00BEB4EB /* Build configuration list for PBXNativeTarget "plantradeTests" */;
+			buildPhases = (
+				9D210C132A8C693F00BEB4EB /* Sources */,
+				9D210C142A8C693F00BEB4EB /* Frameworks */,
+				9D210C152A8C693F00BEB4EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D210C192A8C693F00BEB4EB /* PBXTargetDependency */,
+			);
+			name = plantradeTests;
+			productName = plantradeTests;
+			productReference = 9D210C172A8C693F00BEB4EB /* plantradeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D210C202A8C693F00BEB4EB /* plantradeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D210C312A8C693F00BEB4EB /* Build configuration list for PBXNativeTarget "plantradeUITests" */;
+			buildPhases = (
+				9D210C1D2A8C693F00BEB4EB /* Sources */,
+				9D210C1E2A8C693F00BEB4EB /* Frameworks */,
+				9D210C1F2A8C693F00BEB4EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D210C232A8C693F00BEB4EB /* PBXTargetDependency */,
+			);
+			name = plantradeUITests;
+			productName = plantradeUITests;
+			productReference = 9D210C212A8C693F00BEB4EB /* plantradeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D210BFF2A8C693C00BEB4EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9D210C062A8C693C00BEB4EB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					9D210C162A8C693F00BEB4EB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 9D210C062A8C693C00BEB4EB;
+					};
+					9D210C202A8C693F00BEB4EB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 9D210C062A8C693C00BEB4EB;
+					};
+				};
+			};
+			buildConfigurationList = 9D210C022A8C693C00BEB4EB /* Build configuration list for PBXProject "plantrade" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D210BFE2A8C693C00BEB4EB;
+			productRefGroup = 9D210C082A8C693C00BEB4EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D210C062A8C693C00BEB4EB /* plantrade */,
+				9D210C162A8C693F00BEB4EB /* plantradeTests */,
+				9D210C202A8C693F00BEB4EB /* plantradeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D210C052A8C693C00BEB4EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D210C122A8C693F00BEB4EB /* Preview Assets.xcassets in Resources */,
+				9D210C0F2A8C693F00BEB4EB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D210C152A8C693F00BEB4EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D210C1F2A8C693F00BEB4EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D210C032A8C693C00BEB4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D210C0D2A8C693C00BEB4EB /* ContentView.swift in Sources */,
+				9D210C0B2A8C693C00BEB4EB /* plantradeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D210C132A8C693F00BEB4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D210C1C2A8C693F00BEB4EB /* plantradeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D210C1D2A8C693F00BEB4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D210C282A8C693F00BEB4EB /* plantradeUITestsLaunchTests.swift in Sources */,
+				9D210C262A8C693F00BEB4EB /* plantradeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D210C192A8C693F00BEB4EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D210C062A8C693C00BEB4EB /* plantrade */;
+			targetProxy = 9D210C182A8C693F00BEB4EB /* PBXContainerItemProxy */;
+		};
+		9D210C232A8C693F00BEB4EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D210C062A8C693C00BEB4EB /* plantrade */;
+			targetProxy = 9D210C222A8C693F00BEB4EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9D210C292A8C693F00BEB4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D210C2A2A8C693F00BEB4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D210C2C2A8C693F00BEB4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"plantrade/Preview Content\"";
+				DEVELOPMENT_TEAM = BVKA2BB4RP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jessela.plantrade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D210C2D2A8C693F00BEB4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"plantrade/Preview Content\"";
+				DEVELOPMENT_TEAM = BVKA2BB4RP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jessela.plantrade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9D210C2F2A8C693F00BEB4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BVKA2BB4RP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jessela.plantradeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/plantrade.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/plantrade";
+			};
+			name = Debug;
+		};
+		9D210C302A8C693F00BEB4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BVKA2BB4RP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jessela.plantradeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/plantrade.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/plantrade";
+			};
+			name = Release;
+		};
+		9D210C322A8C693F00BEB4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BVKA2BB4RP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jessela.plantradeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = plantrade;
+			};
+			name = Debug;
+		};
+		9D210C332A8C693F00BEB4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BVKA2BB4RP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jessela.plantradeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = plantrade;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D210C022A8C693C00BEB4EB /* Build configuration list for PBXProject "plantrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D210C292A8C693F00BEB4EB /* Debug */,
+				9D210C2A2A8C693F00BEB4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D210C2B2A8C693F00BEB4EB /* Build configuration list for PBXNativeTarget "plantrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D210C2C2A8C693F00BEB4EB /* Debug */,
+				9D210C2D2A8C693F00BEB4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D210C2E2A8C693F00BEB4EB /* Build configuration list for PBXNativeTarget "plantradeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D210C2F2A8C693F00BEB4EB /* Debug */,
+				9D210C302A8C693F00BEB4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D210C312A8C693F00BEB4EB /* Build configuration list for PBXNativeTarget "plantradeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D210C322A8C693F00BEB4EB /* Debug */,
+				9D210C332A8C693F00BEB4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D210BFF2A8C693C00BEB4EB /* Project object */;
+}
